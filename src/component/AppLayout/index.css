@@ -1,0 +1,28 @@
+.components-AppLayout .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+    background: #001529;
+    position: relative;
+}
+.site-layout .site-layout-background .site-layout-Avatar{
+    width: auto;
+    min-width: 150px;
+    height: 64px;
+    position: absolute;
+    right: 7%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-layout .site-layout-background .site-layout-Avatar span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
